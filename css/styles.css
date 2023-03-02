@@ -60,7 +60,7 @@ h1 {
     color: inherit;
 }
 
-main::after {
+.container::after {
     content: "";
     display: table;
     clear: both;
