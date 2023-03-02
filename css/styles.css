@@ -8,6 +8,8 @@ body {
     max-width: 70%;
     margin: auto;
     background-color: #fffffe;
+    font-family: 'Fredoka', sans-serif;
+    
 }
 
 header {
@@ -16,26 +18,38 @@ header {
 }
 
 h1 {
-    margin-bottom: 15vh;
+    margin-bottom: 10vh;
+    color: #e52a6a;
+    font-family: 'Fredoka One', cursive;
 }
 
 .card {
-    width: 350px;
+    width: calc((100% - 6em) / 3);
     float: left;
     background-color: #0f0e17;
+    margin: 0 2em 2em 0;
 }
 
 .card-photo {
     height: 100px;
     float: left;
-    margin-right: 1rem;
 }
 
 .card-text {
     float: left;
     color: #fffffe;
+    padding: 1rem;
+    font-size: 0.8em;
+}
+.card-text > h2 {
+    font-family: 'Fredoka One', cursive;
+    font-weight: 500;
+    padding: 0 0 0.2rem;
 }
 
+.card-text > h3 {
+    padding: 0 0 0.2rem;
+}
 .card-text > p {
     color: #59b9c6;
 }
