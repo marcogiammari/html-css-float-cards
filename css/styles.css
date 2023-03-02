@@ -3,3 +3,39 @@
     margin: 0 auto;
     padding: 0;
 }
+
+body {
+    max-width: 70%;
+    margin: auto;
+    background-color: #fffffe;
+}
+
+header {
+    text-align: center;
+    margin: 10vh 0;
+}
+
+h1 {
+    margin-bottom: 15vh;
+}
+
+.card {
+    width: 350px;
+    float: left;
+    background-color: #0f0e17;
+}
+
+.card-photo {
+    height: 100px;
+    float: left;
+    margin-right: 1rem;
+}
+
+.card-text {
+    float: left;
+    color: #fffffe;
+}
+
+.card-text > p {
+    color: #59b9c6;
+}
